@@ -94,7 +94,7 @@
 <meta property="og:site_name" content="Looper's Blog">
 <meta property="og:description" content="概述
 　　模拟退火是现代优化启发式算法中使用比较广的算法。相比于禁忌搜索、遗传算法、蚁群算法等算法，模拟退火算法思想简单，如果参数设置得当，模拟退火算法搜索效率比穷举法要高。　　实际用了几次模拟退火，理解了其中的原理。以前认为模拟退火和穷举没什么区别，后来发现其关键在于邻域的构造，实际中有效的邻域的构造方式却有 限，但是仅是这几种邻域构造方式（交换算子、移位算子）就能够在求解过程中，加快搜索进度，">
-<meta property="og:updated_time" content="2017-05-02T06:52:29.480Z">
+<meta property="og:updated_time" content="2017-05-02T06:56:08.957Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="模拟退火">
 <meta name="twitter:description" content="概述
@@ -363,11 +363,17 @@
 <li>解的编码：不同形状下料顺序</li>
 <li>邻域构造：随机交换任意两个零件位置；随机交换两个相邻零件的顺序；随机交换某一个位置零件的长宽</li>
 <li>目标函数：板材利用率</li>
-<li>解的解码：最低水平线法<br>2、网络流问题（华为软挑）</li>
+<li>解的解码：最低水平线法</li>
+</ul>
+<p>2、网络流问题（华为软挑）</p>
+<ul>
 <li>解的编码：视频服务器所在网络节点组合（存在为 1，不存在为 0）</li>
 <li>邻域构造：任意选择某一个节点，若该节点原来是1，则置0，反之置1</li>
 <li>目标函数：总的费用</li>
-<li>解的解码：最小费用最大流（MCMF）<br>3、任务规划</li>
+<li>解的解码：最小费用最大流（MCMF）</li>
+</ul>
+<p>3、任务规划</p>
+<ul>
 <li>解的编码：任务点的执行顺序</li>
 <li>邻域构造：随机交换两个任务点的顺序</li>
 <li>目标函数：执行完任务路径长度</li>
