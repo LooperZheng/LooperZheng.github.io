@@ -94,11 +94,13 @@
 <meta property="og:site_name" content="Looper's Blog">
 <meta property="og:description" content="排序问题
 排序算法可以分为内部排序和外部排序，内部排序是数据记录在内存中进行排序，而外部排序是因排序的数据很大，一次不能容纳全部的排序记录，在排序过程中需要访问外存。常见的内部排序算法有：插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序 等。">
-<meta property="og:updated_time" content="2017-06-17T09:24:21.000Z">
+<meta property="og:image" content="http://op80qz19b.bkt.clouddn.com/selection_sort_animation.gif">
+<meta property="og:updated_time" content="2017-06-17T09:35:02.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="八大排序问题">
 <meta name="twitter:description" content="排序问题
 排序算法可以分为内部排序和外部排序，内部排序是数据记录在内存中进行排序，而外部排序是因排序的数据很大，一次不能容纳全部的排序记录，在排序过程中需要访问外存。常见的内部排序算法有：插入排序、希尔排序、选择排序、冒泡排序、归并排序、快速排序、堆排序、基数排序 等。">
+<meta name="twitter:image" content="http://op80qz19b.bkt.clouddn.com/selection_sort_animation.gif">
 
 
 
@@ -355,7 +357,7 @@
 <li>但插入排序一般来说是低效的， 因为插入排序每次只能将数据移动一位<br><strong>基本思想:</strong> 先将整个待排序的记录序列分割成为若干子序列分别进行直接插入排序，待整个序列中的记录“基本有序”时，再对全体记录进行依次直接插入排序。<br><strong>算法步骤：</strong></li>
 <li>选择一个增量序列t1，t2，…，tk，其中ti&gt;tj，tk=1；</li>
 <li>按增量序列个数k，对序列进行k 趟排序；</li>
-<li>每趟排序，根据对应的增量ti，将待排序列分割成若干长度为m 的子序列，分别对各子表进行直接插入排序。仅增量因子为1 时，整个序列作为一个表来处理，表长度即为整个序列的长度。<h2 id="三、选择排序"><a href="#三、选择排序" class="headerlink" title="三、选择排序"></a>三、选择排序</h2>选择排序示意图<br>选择排序(Selection sort)也是一种简单直观的排序算法。<br><strong>算法步骤：</strong></li>
+<li>每趟排序，根据对应的增量ti，将待排序列分割成若干长度为m 的子序列，分别对各子表进行直接插入排序。仅增量因子为1 时，整个序列作为一个表来处理，表长度即为整个序列的长度。<h2 id="三、选择排序"><a href="#三、选择排序" class="headerlink" title="三、选择排序"></a>三、选择排序</h2>选择排序示意图<br><img src="http://op80qz19b.bkt.clouddn.com/selection_sort_animation.gif" alt="图片"><br>选择排序(Selection sort)也是一种简单直观的排序算法。<br><strong>算法步骤：</strong></li>
 <li>首先在未排序序列中找到最小（大）元素，存放到排序序列的起始位置</li>
 <li>再从剩余未排序元素中继续寻找最小（大）元素，然后放到已排序序列的末尾。</li>
 <li>重复第二步，直到所有元素均排序完毕。<h2 id="四、冒泡排序"><a href="#四、冒泡排序" class="headerlink" title="四、冒泡排序"></a>四、冒泡排序</h2>冒泡排序示意图<br>冒泡排序（Bubble Sort）也是一种简单直观的排序算法。它重复地走访过要排序的数列，一次比较两个元素，如果他们的顺序错误就把他们交换过来。走访数列的工作是重复地进行直到没有再需要交换，也就是说该数列已经排序完成。这个算法的名字由来是因为越小的元素会经由交换慢慢“浮”到数列的顶端。<br><strong>算法步骤：</strong></li>
